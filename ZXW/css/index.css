@@ -1,0 +1,79 @@
+
+.swiper-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 100%;
+    overflow: hidden;
+}
+ .swiper-slide a img{
+    width: 100%;
+    height: 100%;
+}
+ .swiper-pagination .swiper-pagination-bullet {
+   background: red;
+ }
+section{
+    overflow: hidden;
+    display: flex;
+    height: 2.2rem;
+    width: 100%;
+    border-bottom: 1px solid #ababab;
+    padding: 0.2rem 0.54rem 0.2rem 0.17rem ;
+    font-size: 0.26rem;
+    font-weight: 700;
+    color: #000000;
+}
+.section-left{
+    width:1.74rem;
+    margin-right: 2.5%;
+    border: 1px solid #c5c5c5;
+
+}
+.section-left img{
+    width: 100%;
+    height: 100%;
+}
+.section-right{
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+.section-right p{
+   width:4.2rem ;
+    height: 0.7rem;
+}
+section .money{
+    position: absolute;
+    left: 1.8rem;
+    top: 0.8rem;
+}
+section .money span:nth-child(1){
+    font-size: 0.3rem;
+    color: #f86494;
+}
+section .money span:nth-child(2){
+    text-decoration: line-through;
+    font-size: 0.2rem;
+    color: #bdbbbc;
+    margin-left: 0.2rem;
+}
+section strong{
+   position: absolute;
+    left: 1.82rem;
+    top: 1.3rem;
+
+}
+section .shopping{
+    display: inline-block;
+    width:1.18rem;
+    height: 0.52rem;
+    background: url("../img/gwc.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0.1rem;
+}
+

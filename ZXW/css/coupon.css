@@ -1,0 +1,47 @@
+section{
+    display: flex;
+    flex: 1;
+    padding: 0.3rem 0.5rem;
+    flex-direction: column;
+    background: #f7f7f7;
+}
+section .ul1{
+    display: flex;
+    font-size: 0.33rem;
+    border: 1px solid #a9a9a9;
+    border-radius: 10px;
+    height: 0.63rem;
+    color: #454545;
+}
+section .ul1 li{
+    border-right: 1px solid #454545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+.list{
+    background: #f04c7e;
+    color: #fff;
+}
+.all-message{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.all-message ul{
+    width: 100%;
+    background: #ffffff;
+    height: 1.5rem;
+    font-size: 0.25rem;
+    border: 1px solid #a1a1a1;
+    border-radius: 10px;
+    margin-top: 0.25rem;
+    padding: 0.12rem 0.15rem;
+    color: #454545;
+}
+.all-message ul span{
+ color: #c9c9c9;
+}

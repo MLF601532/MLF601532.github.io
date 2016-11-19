@@ -1,0 +1,87 @@
+.right img{
+    position: absolute;
+    top:0.15rem;
+    right: 0.2rem;
+    display: inline-block;
+    width: 1.2rem;
+    height: 0.6rem;
+}
+
+.time{
+    height: 0.9rem;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 0.3rem;
+}
+section{
+    display: flex;
+    flex: 1;
+    background: #f7f7f7;
+    flex-direction: column;
+    align-items: center;
+}
+.clothes{
+    width: 4.4rem;
+    height: 3.7rem;
+    border: 1px solid #acacac;
+    margin-top: 0.3rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clothes img{
+    width: 2.4rem;
+    height: 3.3rem;
+}
+.clothes-message{
+    width: 5.06rem;
+    height: 0.87rem;
+    background: url("../img/clothses-message.png") no-repeat;
+    background-size: 100%;
+    margin: 0.5rem 0 0.3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.32rem;
+    color: #fff;
+}
+.colthes-bottom{
+    width: 4.9rem;
+    font-size: 0.25rem;
+    color:#7f7f7f;
+}
+.zhekou{
+    margin-left: 0.3rem;
+
+}
+.peoplenumber{
+  margin-left: 1rem;
+}
+.foot{
+    height: 0.98rem;
+    background: #54535b;
+
+    font-size: 0.34rem;
+}
+.foot ul{
+    display: flex;
+}
+.foot ul li{
+    display: flex;
+    height: 0.98rem;
+    width: 33.33%;
+
+
+}
+.foot ul li a{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-right: 1px solid #282828;
+}

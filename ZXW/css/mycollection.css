@@ -1,0 +1,67 @@
+section{
+    overflow: hidden;
+    display: flex;
+    height: 2.2rem;
+    width: 100%;
+    border-bottom: 1px solid #ababab;
+    padding: 0.2rem 0.54rem 0.2rem 0.17rem ;
+    font-size: 0.25rem;
+    font-weight: 700;
+    color: #333333;
+}
+.section-left{
+    width:1.74rem;
+    margin-right: 2.5%;
+    border: 1px solid #c5c5c5;
+
+}
+.section-left img{
+    width: 100%;
+    height: 100%;
+}
+.section-right{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+}
+section p{
+    margin-top: 0.1rem;
+}
+.p1{
+    width: 3.3rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+section .delete{
+    position: absolute;
+    right: 0;
+    display: flex;
+    height: 0.3rem;
+    width: 0.3rem;
+    top:0.1rem;
+}
+section .delete img{
+    width: 100%;
+    height: 100%;
+}
+section .money span:nth-child(2){
+
+    color: #ef95ae;
+    margin-left: 0.2rem;
+}
+.dz strong:nth-child(2){
+    text-decoration: line-through;
+    margin-left: 0.15rem;
+    color: #ccc;
+}
+section .shopping{
+    display: inline-block;
+    width:1.18rem;
+    height: 0.52rem;
+    background: url("../img/gwc.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0.1rem;
+}

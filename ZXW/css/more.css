@@ -1,0 +1,49 @@
+section{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0.4rem  0.4rem 0 0.4rem;
+    background: #f7f7f7;
+}
+.more-top{
+    height: 3.65rem;
+    background: #fff;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+}
+section ul{
+    height: 3.6rem;
+}
+section ul li a{
+    display: flex;
+    height: 0.9rem;
+    font-size: 0.35rem;
+    color: #676767;
+    padding: 0.25rem 0.3rem;
+    border-bottom: 1px solid #dedede;
+}
+.iconfont{
+    color: #7f7f7f;
+    font-size: 0.35rem;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.more-bottom{
+    margin-top: 0.25rem;
+    height: 1.8rem;
+    background: #fff;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+}
+section p a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0.9rem;
+    background: #e0245f;
+    border-radius: 10px;
+    font-size: 0.4rem;
+    color: #fff;
+    margin-top: 0.2rem;
+}

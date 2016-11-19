@@ -1,0 +1,59 @@
+.right img{
+    position: absolute;
+    top:0.15rem;
+    right: 0.2rem;
+    display: inline-block;
+    width: 1.2rem;
+    height: 0.6rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0.6rem 0.4rem 0 0.4rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.36rem;
+    text-indent: 0.3rem;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    outline: none;
+    box-shadow: 0px 2px 1px 1px #f9f7ea;
+}
+form p input{
+    height: 0.3rem;
+    width: 0.3rem;
+    color: red;
+    margin-bottom: 0;
+    margin: 0 0.15rem 0 0.18rem;
+}
+form p{
+    display: flex;
+    align-items: center;
+    font-size: 0.24rem;
+}
+form p a{
+    color: #c3c3c3;
+    margin-left: 0.5rem;
+    text-decoration: underline;
+}
+.landed{
+    display: flex;
+    width: 100%;
+    height: 0.9rem;
+    background: #eb4374;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 0.35rem;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 0.45rem;
+}

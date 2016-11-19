@@ -1,0 +1,146 @@
+
+.right img{
+    position: absolute;
+    top:0.15rem;
+    right: 0.2rem;
+    display: inline-block;
+    width: 1.2rem;
+    height: 0.6rem;
+}
+
+ .topmeseage{
+    height: 0.9rem;
+    background: url("../img/bg2.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ .topmeseage strong{
+    font-size: 0.3rem;
+    color: #fff;
+    font-weight:normal;
+    padding: 0 0.05rem;
+}
+.topmeseage .all{
+    margin-left: 0.4rem;
+}
+ .topmeseage .all-money{
+    color: #e43669;
+}
+.more{
+    display: flex;
+    flex: 1;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+    height: 2.3rem;
+    border-bottom: 1px solid #aaaaaa;
+    background: #ffffff;
+    padding: 0 0.24rem 0 0.3rem;
+}
+.more-left{
+    width: 1.75rem;
+    height: 1.75rem;
+    border: 1px solid #aaaaaa;
+}
+.more-left a img{
+    width: 100%;
+    height: 100%;
+}
+.more-right{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 0.25rem;
+    font-size: 0.28rem;
+}
+.more-right .p1{
+    width: 4rem;
+    overflow: hidden;
+}
+p{
+    display: flex;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    margin-bottom: 0.12rem;
+}
+.delete {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    height: 100%;
+}
+.delete img{
+    height: 100%;
+}
+
+.big {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+.less{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0.55rem;
+    height: 0.4rem;
+    background: #ccc;
+    font-size: 0.5rem;
+    color: #fff;
+    border-radius:5px;
+}
+.mores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0.55rem;
+    height: 0.4rem;
+    background: #ccc;
+    font-size: 0.5rem;
+    color: #fff;
+    border-radius:5px;
+}
+.number{
+    width: 0.8rem;
+    height: 0.4rem;
+    text-align: center;
+    border:1px solid #ccc;
+    margin: 0 0.1rem;
+    outline: none;
+}
+.money{
+    color: #e43669;;
+}
+.sectoon2{
+
+    margin-left: 1.5rem ;
+}
+.sectoon2 strong{
+    font-size: 0.34rem;
+    margin-top: 0.55rem;
+    color: #3e3e3e;
+}
+.sectoon2 .img{
+    height: 2.55rem;
+    width: 2.55rem;
+    margin-top: 0.25rem;
+}
+.sectoon2 .img img{
+    width: 100%;
+    height: 100%;
+}
+.sectoon2 p{
+    width: 4.2rem;
+    height: 0.9rem;
+    margin-left: -0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.42rem;
+    color: #ffffff;
+    background: #e7396e;
+    margin-top: 0.67rem;
+    border-radius: 5px;
+}

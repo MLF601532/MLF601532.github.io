@@ -1,0 +1,43 @@
+.left{
+    position: absolute;
+    color:#000;
+    top:0.2rem;
+    left: 0.2rem;
+    font-weight: bold;
+
+}
+header{
+    height: 0.87rem;
+    border-bottom: 1px solid #cbcbcb;
+    padding: 0.2rem 0.3rem 0.2rem 0.22rem;
+    font-size: 0.37rem;
+    position: relative;
+}
+header span.iconfont{
+    position: absolute;
+    right:0.4rem;
+    font-size: 0.35rem;
+    color: #d8d6d7;
+}
+section{
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.38rem;
+}
+section ul li{
+    height: 0.87rem;
+    border-bottom: 1px solid #cbcbcb;
+    font-size: 0.37rem;
+    padding: 0.2rem 0.3rem 0.2rem 0.4rem;
+    position: relative;
+}
+section ul li a{
+    color: #000;
+}
+section ul li a  span.iconfont{
+    position: absolute;
+    right:0.4rem;
+    font-size: 0.35rem;
+    color: #d8d6d7;
+}
