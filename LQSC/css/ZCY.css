@@ -1,0 +1,424 @@
+#mian{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+#main-info{
+    width:1000px;
+    height: 436px;
+    margin:0 auto;
+    border: 1px solid #dddddd;
+    padding: 30px 0 20px;
+}
+#persform{
+     width: 998px;
+     height:434px ;
+}
+#form{
+    width: 690px;
+    height: 434px;
+    float: left;
+}
+#item{
+    width: 690px;
+    height: 69px;
+    line-height: 34px;
+    position: relative;
+}
+.label{
+    display: inline-block;
+    width: 160px;
+    color: #999;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 10px;
+    float: left;
+}
+.ft{
+    color:#f00;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.regName{
+    width: 270px;
+    height: 38px;
+    border: 1px solid #dddddd;
+    float: left;
+    position: relative;
+}
+.txt{
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    height: 16px;
+    padding: 10px 25px 10px 5px;
+    width: 238px;
+    border: none;
+    outline: none;
+}
+
+.i-name{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    top:9px;
+    position: absolute;
+    right: 8px;
+    background: url('../img/one4.jpg') no-repeat;
+}
+.i-sucess{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    top:9px;
+    position: absolute;
+    right: 8px;
+    background: url('../img/sucess.png') no-repeat;
+    display: none;
+}
+.iput{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 38px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.long{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 38px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.onenumber{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 20px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.yx{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 38px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.yhm{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 38px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.twonumber{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 38px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+
+#item2{
+    width: 690px;
+    height: 69px;
+    line-height: 34px;
+    position: relative;
+}
+.pwd{
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    height: 16px;
+    padding: 10px 25px 10px 5px;
+    width: 238px;
+    border: none;
+    outline: none;
+}
+.i-pwd{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    top:9px;
+    position: absolute;
+    right: 8px;
+    background: url('../img/one5.jpg') no-repeat;
+}
+.i-pwds{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    top:9px;
+    position: absolute;
+    right: 8px;
+    background: url('../img/sucess.png') no-repeat;
+    display: none;
+}
+
+.malong{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 38px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.tx{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 20px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.fza{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 20px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.f1{
+    display: inline-block;
+    width: 174px;
+    height: 30px;
+    position: absolute;
+    top:50%;
+    left: 30%;
+    color:#999 ;
+    font-size:12px;
+    padding-right: 10px;
+    overflow: hidden;
+    display: none;
+
+}
+.b{
+   float: right;
+    width: 104px;
+    height: 13px;
+    margin-top: 10px;
+    background: url("../img/pwdstrength.gif") no-repeat;
+}
+#item3{
+    width: 690px;
+    height: 69px;
+    line-height: 34px;
+    position: relative;
+}
+.i-cfpwds{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    top:9px;
+    position: absolute;
+    right: 8px;
+    background: url('../img/sucess.png') no-repeat;
+    display: none;
+
+}
+
+.cfpwd{
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    height: 16px;
+    padding: 10px 25px 10px 5px;
+    width: 238px;
+    border: none;
+    outline: none;
+}
+.nextmalong{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 38px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.byz{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 38px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+.nextmima{
+    display: inline-block;
+    width: 230px;
+    height: 38px;
+    line-height: 38px;
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    border: 1px solid #fb5859;
+    background: pink;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+#item4{
+    width: 690px;
+    height: 109px;
+    line-height: 34px;
+    position: relative;
+    float: left;
+}
+.item-ifo{
+    width: 270px;
+    height: auto;
+    float: left;
+    position: relative;
+}
+.yz1{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    outline: none;
+    cursor: pointer;
+}
+.yz2{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+.yy{
+    display: inline-block;
+    width: 87px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    top:40px;
+    left: 155px;
+    font-size: 10px;
+}
+.yy i{
+    font-style: normal;
+    color: #999;
+}
+.yy .b2{
+    color: #005aa0;
+    cursor: pointer;
+}
+.tk{
+    width: 270px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    top:80px;
+    left: 0;
+}
+.tk{
+    color: #000000;
+    font-size: 12px;
+}
+.kk{
+    color: #005aa0;
+}
+.zhce{
+    width: 270px;
+    height: 36px;
+    line-height: 36px;
+    background: url("../img/regist-btn.jpg");
+    position: absolute;
+    top:120px;
+    left: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+#foot-info{
+    margin-top: 20px;
+    background: rgb(242, 242, 242) none repeat scroll 0% 0%;
+    padding-top: 20px;
+}

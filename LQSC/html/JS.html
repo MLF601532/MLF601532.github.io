@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结算页</title>
+    <link rel="stylesheet" href="../css/JSY.css">
+    <script type="text/javascript" src="../js/1.8.3.js"></script>
+    <script type="text/javascript" src="../js/commit.js"></script>
+    <script type="text/javascript" src="../js/JSY.js"></script>
+</head>
+<body>
+<!--头部信息-->
+<div id="header">
+    <div id="header-all">
+        <div id="header-info">
+            <div id="header-info-lt">
+                <a href="javascript:;">收藏本站</a>
+                <span>Hi , 欢迎来到利群商城！</span>
+            </div>
+            <ul id="header-lu">
+                <li class="header-li1"><a href="javascript:;"></a></li>
+                <!-- <i class="header-i">|</i>-->
+                <li class="header-li2"><a href="javascript:;">会员中心</a></li>
+                <i class="header-i">|</i>
+                <li class="header-li3"><a href="javascript:;">客户服务</a>
+                    <ul id="header-li3-ul">
+                        <li><a href="javascript:;">帮助中心</a></li>
+                        <li><a href="javascript:;">售后服务</a></li>
+                        <li><a href="javascript:;">在线投诉</a></li>
+                    </ul>
+                </li>
+                <i class="header-i">|</i>
+                <li class="header-li4"><a href="javascript:;">手机利群</a></li>
+                <i class="header-i">|</i>
+                <li class="header-li5"><a href="javascript:;">利群官网</a></li>
+                <i class="header-i">|</i>
+                <li class="header-li6"><span class="header-lu-s">关注利群</span><span class="header-sp"><img
+                        src="../img/5.jpg"><img src="../img/8.jpg" class="header-spimg"></span><a
+                        href="javascript:;"><img src="../img/6.jpg"></a><a href="javascript:;"><img src="../img/7.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--核对订单-->
+<div id="bander">
+    <div id="bander-img"></div>
+</div>
+<!-- 详细的表单信息-->
+<form id="fom">
+
+    <div class="fom-top">
+        <ul class="ull">
+            <ul class="ul2">
+            <li class="list1"><h3>收货地址</h3><a href="" >修改收货地址</a></li>
+
+            <li class="list2"><input type="radio" checked="checked"/>编辑新地址</li>
+            <li class="list3">收货人:&nbsp;<input type="text" value="" class="ipt1">&nbsp;&nbsp;性别:&nbsp;<select>
+                <option>男</option>
+                <option>女</option>
+            </select>&nbsp;&nbsp;邮编:&nbsp;<input type="text" value="" class="ipt2"/></li>
+            <li class="list3">手&nbsp;机:&nbsp;<input type="text" value="" class="ipt3">&nbsp;&nbsp;&nbsp;&nbsp;电话:<input type="text" class="ipt4">
+            </li>
+            <li class="list3">
+                收货地址：
+                <select class="select1">
+                    <option >河南</option>
+                    <option>河北</option>
+                    <option>山东</option>
+                    <option>日本</option>
+                    <option>鹿邑</option>
+                    <option>郑州</option>
+                    <option>中国</option>
+                    <option>南海</option>
+                    <option>东海</option>
+                </select>
+                <select>
+                    <option class="select2">鹿邑</option>
+                    <option>项城</option>
+                    <option>亳州</option>
+                    <option>东京</option>
+                    <option>太康</option>
+                    <option>合肥</option>
+                    <option>石家庄</option>
+                    <option>梅楼</option>
+                    <option>王庄</option>
+                </select>
+                <select>
+                    <option class="select3">周口</option>
+                    <option>项城</option>
+                    <option>亳州</option>
+                    <option>东京</option>
+                    <option>太康</option>
+                    <option>合肥</option>
+                    <option>石家庄</option>
+                    <option>梅楼</option>
+                    <option>王庄</option>
+                </select>
+                <input type="text" class="ipt7"/>
+            </li>
+            <li class="list3">购买人真实姓名：<input type="text" class="ipt5"/></li>
+            <li class="list4">省外用户商品的运费将根据实际情况进行调整</li>
+            <li class="list5">温馨提示：修改收货地址后需要重新选择支付方式。</li>
+            <li class="list6">
+                <a href="" class="BC"><img src="../img/saveAddress.jpg"></a>
+                <a href="javascript:;"><img src="../img/cancelModifyAddress.jpg"></a>
+            </li>
+                </ul>
+        </ul>
+    </div>
+    <div class="fom-pay">
+        <ul>
+            <li class="list7"><h3>支付方式</h3></li>
+            <li class="list8">
+                网上支付：
+                <span class="list11"><input type="radio"> 在线支付：包含快捷支付、网银支付、分期付款、支付宝、工资卡等支付平台</span>
+            </li>
+            <li class="list8">备注:选择网上支付用户，如果24小时内未支付，讲自动取消订单</li>
+            <li class="list8">第三方平台订单需网上支付</li>
+        </ul>
+    </div>
+    <div class="shop-qr">
+        <ul>
+            <li class="list12"><h3>商品确认</h3></li>
+            <li class="list13">
+                <span>商品编码</span>
+                <span class="span1">商品名称</span>
+                <span>商品单价</span>
+                <span>商品数量</span>
+                <span>单品小计</span>
+            </li>
+            <li class="list14">以下商品由<span>利群商城</span>配送</li>
+            <li class="list15">
+                <span>04011177</span>
+                <span class="span2">新飞天茅台</span>
+                <span>119.00</span><span>1</span>
+                <span>1199.00</span>
+            </li>
+            <li class="list16">
+                <span class="span3"></span>
+                <span>商品金额：1330.80</span>
+                <span>总重量：6095</span>
+                <span>配送费：0.00</span>
+                <span>订单总额：1330.80</span>
+            </li>
+        </ul>
+    </div>
+    <div class="money-qr">
+        <ul>
+            <li class="list17">金额确认</li>
+            <li class="list18">
+                <span>全部费用</span>
+                <span>-</span>
+                <span>红包支付</span>
+                <span>-</span>
+                <span>代金券冲抵</span>
+                <span>-</span>
+                <span>礼品卡支付</span>
+                <span>-</span>
+                <span>资金转账</span>
+                <span>=</span>
+                <span>您需要支付</span>
+            </li>
+            <li class="list19">
+                <span>￥1366.3</span>
+                <span></span>
+                <span>￥0</span>
+                <span></span>
+                <span>￥19.90</span>
+                <span></span>
+                <span>￥0.00</span>
+                <span></span>
+                <span>￥0.00</span>
+                <span></span>
+                <span>￥1346.40</span>
+            </li>
+            <li class="list20">注意：请认真核对您的金额</li>
+        </ul>
+    </div>
+    <div class="bottom"><a href="javascript:;"><img src="../img/orderinfo_btn.jpg"></a></div>
+</form>
+
+<!-- 底部信息-->
+<div id="foot-info">
+    <div id="foot-content">
+        <div class="foot-link">
+            <ul class="row-wrap">
+                <li><a href="javascript:;">关于我们</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">联系我们</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">诚聘英才</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">手机利群</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">销售联盟</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">友情链接</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">网站合作</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">帮助中心</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">版权说明</a></li>
+            </ul>
+            <ul class="row-wraps">
+                <li><a href="javascript:;">利群集团</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">百货集团</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群网</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群酒店</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群房产</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群旅行社</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群药品</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群影城</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群水站</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群家政</a></li>
+            </ul>
+        </div>
+        <div id="p"><p>Copyright©2004-2015 利群集团青岛电子商务有限公司 版权所有 </p></div>
+    </div>
+</div>
+</body>
+</html>

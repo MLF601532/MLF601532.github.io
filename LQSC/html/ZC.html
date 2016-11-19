@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页</title>
+    <link rel="stylesheet" href="../css/ZCY.css">
+    <link rel="stylesheet" href="../css/commit.css">
+    <script type="text/javascript" src="../js/1.8.3.js"></script>
+    <script type="text/javascript" src="../js/commit.js"></script>
+    <script type="text/javascript" src="../js/ZCY.js"></script>
+</head>
+<body>
+<!--顶部注册以及官网关注信息-->
+<div id="header">
+    <div id="header-all">
+        <div id="header-info">
+            <div id="header-info-lt">
+                <span>Hi , 欢迎来到利群商城！</span>
+                <a href="javascript:;">请登录</a>
+                <a href="javascript:;">免费注册</a>
+            </div>
+            <ul id="header-lu">
+                <li class="header-li1"><a href="javascript:;">我的订单</a></li><i class="header-i">|</i>
+                <li class="header-li2"><a href="javascript:;">会员中心</a></li><i class="header-i">|</i>
+                <li class="header-li3"><a href="javascript:;">客户服务</a>
+                    <ul id="header-li3-ul">
+                        <li><a href="javascript:;">帮助中心</a></li>
+                        <li><a href="javascript:;">售后服务</a></li>
+                        <li><a href="javascript:;">在线投诉</a></li>
+                    </ul>
+                </li><i class="header-i">|</i>
+                <li class="header-li4"><a href="javascript:;">手机利群</a></li><i class="header-i">|</i>
+                <li class="header-li5"><a href="javascript:;">利群官网</a></li><i class="header-i">|</i>
+                <li class="header-li6"><span class="header-lu-s">关注利群</span><span class="header-sp"><img src="../img/5.jpg"><img src="../img/8.jpg" class="header-spimg"></span><a href="javascript:;"><img src="../img/6.jpg"></a><a href="javascript:;"><img src="../img/7.jpg"></a></li>
+            </ul>
+        </div>
+        <div id="header-nav">
+            <div id="header-navleft"><a href="javascript:;"><img src="../img/logo.jpg"></a>
+                <div id="header-navspt"><a href="javascript:;"><img src="../img/1.gif"></a></div>
+            </div>
+            <form id="formm">
+                <input type="text" name="" value="洗发液" class="form1" /><input type="submit" name="" value="" class="form2" />
+            </form>
+            <div id="relative"><a href="javscript:;"><img src="../img/go_cart.jpg"></a></div>
+            <div id="rlat"><a href="javscript:;"><img src="../img/hot_tel.jpg"></a></div>
+            <ul id="header-search">
+                <span>热门搜索:</span>
+                <li><a href="javascript:;">ipone7大促</a></li>
+                <li><a href="javascript:;">百货特卖</a></li>
+                <li><a href="javascript:;">健安喜特卖</a></li>
+                <li><a href="javascript:;">婴之侣</a></li>
+                <li><a href="javascript:;">面膜五折起</a></li>
+                <li><a href="javascript:;">数码爆款</a></li>
+                <li><a href="javascript:;">冰饮</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--注册部分信息-->
+<div id="main">
+    <div id="main-info">
+     <form id="persform" method="post" onsubmit="return false" name="aa" action="利群商城主页.html">
+         <div id="form">
+             <!--用户注册-->
+             <div id="item">
+               <span class="label">
+                   <b class="ft">*</b>
+                   账户名：
+               </span>
+                 <div class="regName">
+                     <input type="text" value="邮箱/用户名/手机号" class="txt" />      <i class="i-name"></i>
+                     <i class="i-sucess"></i>
+                 </div>
+                 <span class="iput">请输入邮箱/手机号</span>
+                 <span class="long">用户名长度只能在6-20位字符之间</span>
+                 <span class="onenumber">用户名不能使纯数字,请确认输入的是手机号或者重新输入</span>
+                 <span class="twonumber">该用户已被注册,请重新注册</span>
+                 <span class="yx">邮箱地址不正确,请重新输入</span>
+                 <span class="yhm">用户名的长度为6-20之间</span>
+             </div>
+              <!--设置密码-->
+             <div id="item2">
+               <span class="label">
+                   <b class="ft">*</b>
+                   请设置密码：
+               </span>
+                 <div class="regName">
+                     <input type="text" value="" class="pwd">      <i class="i-pwd"></i>
+                     <i class="i-pwds"></i>
+                 </div>
+                 <span class="malong">密码长度只能在6-20字符之间</span>
+                 <span class="tx">6-20字符,可使用字母、数字、符合，不建议使用纯数字</span>
+                 <span class="fza">该密码比较简单,有被盗风险,建议您更改为复杂密码,如字母+数字组合</span>
+                 <span class="f1">安全程度：<b class="b"></b></span>
+             </div>
+                <!--确认密码-->
+             <div id="item3">
+               <span class="label">
+                   <b class="ft">*</b>
+                   请确认密码：
+               </span>
+                 <div class="regName">
+                     <input type="text" value="" class="cfpwd">      <i class="i-pwd"></i>
+                     <i class="i-cfpwds"></i>
+                 </div>
+                 <span class="nextmalong">密码长度只能在6-20字符之间</span>
+                 <span class="nextmima">请再次输入密码</span>
+                 <span class="byz">两次密码不一致</span>
+             </div>
+              <!--验证码-->
+             <div id="item4">
+               <span class="label">
+                   <b class="ft">*</b>
+                   验证码：
+               </span>
+               <div class="item-ifo">
+                   <p class="yz1" /><img src="../img/y3.gif" alt=""></p>
+                   <input type="text"value="" class="yz2" />
+                   <span class="yy"><i class="b1">看不清？</i><i class="b2">换一张</i></span>
+                   <div class="tk">
+                       <input type="checkbox" checked="checked" class="check" />
+                       <span class="ty">我已阅读并同意<a href="javascript:;" class="kk">《利群商城交易条款》</a></span>
+                   </div>
+                  <!-- 提交注册-->
+                   <input type="button"  class="zhce" >
+
+
+               </div>
+
+             </div>
+         </div>
+     </form>
+    </div>
+</div>
+
+<!-- foot-->
+<div id="foot-info">
+    <div id="foot-content">
+
+        <div class="foot-link">
+            <ul class="row-wrap">
+                <li><a href="javascript:;">关于我们</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">联系我们</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">诚聘英才</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">手机利群</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">销售联盟</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">友情链接</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">网站合作</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">帮助中心</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">版权说明</a></li>
+            </ul>
+            <ul class="row-wraps">
+                <li><a href="javascript:;">利群集团</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">百货集团</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群网</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群酒店</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群房产</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群旅行社</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群药品</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群影城</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群水站</a></li>
+                <li><img src="../img/foot_space_line.jpg"></li>
+                <li><a href="javascript:;">利群家政</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
